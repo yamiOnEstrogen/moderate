@@ -20,6 +20,12 @@ inspiration and insights.
 
 Make sure you have Python and pip installed on your machine.
 
+Required Python version: [`3.9.5`](https://www.python.org/downloads/release/python-395/)
+
+```bash
+python3 --version # or python --version
+```
+
 ### Installation
 
 Clone the project
