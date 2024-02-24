@@ -122,9 +122,8 @@ def scrape_group_details(driver, group_url, standalone=False):
                             link = link_element.get_attribute("ng-href")
                             if link:
                                 members_file.write(
-                                    f"Username: {name_element.text.strip()}\n"
+                                    f"{name_element.text.strip()}({link})\n"
                                 )
-                            members_file.write(f"Link: {link}\n")
 
                     has_exp = driver.find_elements(By.TAG_NAME, "group-games")
 
