@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "charliermarsh.ruff",
+        "deepscan.vscode-deepscan"
+    ]
+}
