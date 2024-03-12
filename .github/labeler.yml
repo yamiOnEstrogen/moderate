@@ -1,0 +1,11 @@
+Documentation:
+- changed-files:
+  - any-glob-to-any-file: 'docs/**'
+
+Scraper:
+- changed-files:
+  - any-glob-to-any-file: '**/*.py'
+
+Github:
+- changed-files:
+  - any-glob-to-any-file: '.github/**'
