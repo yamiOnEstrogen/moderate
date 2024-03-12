@@ -42,6 +42,40 @@ cd moderate
 
 Install dependencies
 
+<details>
+<summary>Virtual Environment (venv)</summary>
+
+## Create a new virtual enviroment
+
+```bash
+python -m venv .venv
+```
+
+## Activate the virtual enviroment
+
+### For Windows:
+
+```bash
+.\.venv\Scripts\activate
+```
+
+### For macOS/Linux:
+
+```bash
+source .venv/bin/activate
+```
+
 ```bash
 pip3 install -r requirements.txt
 ```
+
+</details>
+
+<details>
+<summary>Python</summary>
+
+```bash
+pip3 install -r requirements.txt
+```
+
+</details>
